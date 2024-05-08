@@ -9,6 +9,7 @@ use Dcat\Admin\Http\Controllers\AdminController;
 
 class GameCateController extends AdminController
 {
+    
     public $title = '游戏分类';
 
     /**
