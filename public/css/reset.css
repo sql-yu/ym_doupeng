@@ -1,0 +1,43 @@
+@charset "utf-8";
+html, body {
+  color: black;
+  background-color: #f39484;
+  min-height: 100vh;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+  background: url('/web/bg.webp');
+  background-color: #f39484;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+html {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+div {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, pre, img, span, small, cite, code, em, i, b, th, td, hr, code, form, label, button, select, input, textarea, fieldset, legend, blockquote, audio, canvas, video, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block
+}
+body, button, input, select, textarea {
+  font-family: microsoft yahei, avenir, -apple-system, BlinkMacSystemFont, segoe ui, Roboto, helvetica neue, Helvetica, Arial, sans-serif
+}
+button, input, select, textarea {
+  font-size: 1em;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  -webkit-appearance: none; //解决textarea、input等输入框在ios端的阴影问题}h1,h2,h3,h4,h5,h6{font-size:1em;font-weight:400}a{text-decoration:none;cursor:pointer}@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none){a:active{background-color:transparent}}a:active{outline:0}small,cite,code,em,th,i,b{font-size:1em;font-style:normal;font-weight:500}button,input[type=button],input[type=submit],input[type=reset],input[type=file]{cursor:pointer}button[disabled],input[disabled]{cursor:not-allowed}textarea{resize:none;overflow:auto;vertical-align:top}button::-moz-focus-inner,input::-moz-focus-inner,select::-moz-focus-inner,fieldset,img,iframe{border:none;padding:0}input:focus,button:focus,textarea:focus,select:focus{outline:0}img{display:inline-block;vertical-align:bottom;-ms-interpolation-mode:bicubic}ul,li,ol{list-style:none}li{vertical-align:top}q:before,q:after{content:''}::-webkit-scrollbar{width:10px;height:10px}::-webkit-scrollbar-track{background-color:#ececec}::-webkit-scrollbar-thumb{border-radius:6px;background-color:rgba(0,0,0,.1)}::-webkit-scrollbar-thumb:hover{background-color:rgba(0,0,0,.2)}::-webkit-scrollbar-button{display:none}::-webkit-scrollbar-corner{background-color:#ececec}

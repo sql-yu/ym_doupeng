@@ -1,0 +1,12 @@
+$(function(){
+    $("img.loading-img").lazyload({
+        placeholder:"/web/loading.gif",
+        effect:"fadeIn",
+        failure_limit:50,
+    });
+    $("img.loading-img-tag").lazyload({
+        placeholder:"/web/loading.gif",
+        effect:"fadeIn",
+        failure_limit:50,
+    });
+});

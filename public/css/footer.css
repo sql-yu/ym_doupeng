@@ -1,0 +1,100 @@
+@charset "utf-8";
+.container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    background: #f39484;
+    box-shadow: 0 0.6rem 1.2rem 0 rgba(0, 0, 0, 0.19);
+    flex: 1; /* 填充主要内容区域，使 footer 固定在底部 */
+   /*position: fixed;*/
+      left: 0;
+      bottom: 0;
+      width: 100%;
+}
+.container-footer .copyright {
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+    padding: 2rem;
+}
+.container-footer .copyright .copyright-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-footer .copyright .copyright-text {
+    white-space: nowrap;
+    margin: 0 2rem;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+}
+
+.footer-container {
+    padding: 9rem 2rem 2rem;
+    min-height: calc(100vh - 5rem);
+}
+.footer-container h2 {
+    font-size: 2rem;
+    line-height: 4rem;
+}
+.mainBox h3 {
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    padding-top: 2rem;
+}
+.mainBox p {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    padding-top: 2rem;
+}
+@media screen and (max-width: 1300px) {
+    .container-footer .copyright {
+        font-size: 1.6rem;
+        padding: 1rem;
+    }
+    .container-footer .copyright .copyright-text {
+        margin: 0 1rem;
+    }
+
+    .footer-container h2 {
+        font-size: 1.8rem;
+        line-height: 3.6rem;
+    }
+    .mainBox h3 {
+        font-size: 1.6rem;
+        line-height: 3.2rem;
+        padding-top: 1.8rem;
+    }
+    .mainBox p {
+        font-size: 1.4rem;
+        line-height: 2.8rem;
+        padding-top: 1.8rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    .container-footer .copyright {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    .container-footer .copyright {
+        font-size: 1.2rem;
+        line-height: 2.4rem;
+    }
+
+    .footer-container h2 {
+        font-size: 1.6rem;
+        line-height: 3.2rem;
+    }
+    .mainBox h3 {
+        font-size: 1.4rem;
+        line-height: 2.8rem;
+        padding-top: 1.6rem;
+    }
+    .mainBox p {
+        font-size: 1.2rem;
+        line-height: 2.4rem;
+        padding-top: 1.6rem;
+    }
+}
